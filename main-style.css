@@ -1,0 +1,78 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game {
+    height: 28vw;
+    width: 90vw;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 2rem;
+    margin: 2rem;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.box-player{
+    width: 15%;
+    height: 90%;
+    background-color:rgba(0, 0, 0, 0.329);
+    margin: 2rem;
+    border-radius: 1rem;
+    border: 2px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.roll-viewer{
+    width: 90%;
+    height: 45%;
+    background-color:rgba(0, 0, 0, 0.329);
+    border: 2px solid whitesmoke;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.placar{
+    width: 90%;
+    height: 45%;
+    background-color:rgba(0, 0, 0, 0.329);
+    border: 2px solid whitesmoke;
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+}
+
+.placar div{
+    color: whitesmoke;
+    margin: 1rem;
+}
+
+.control-game{
+    height: 9vw;
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 90vw;
+    margin-bottom: 2rem;
+    border: 2px solid whitesmoke;
+    border-radius: 2rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.control-game button{
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    box-shadow: 2px 2px 2px black;
+    margin: 2rem;
+    background-color: #f4d440;
+}

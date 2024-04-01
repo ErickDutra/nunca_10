@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: grey;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 1rem;
+    box-shadow: 2px 2px 2px black;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+header h1{
+    color: whitesmoke;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+}
