@@ -5,22 +5,49 @@ main{
 }
 
 .game {
-    height: 28vw;
+    height: 20vw;
     width: 90vw;
     background-color: rgba(0, 0, 0, 0.329);
     border-radius: 2rem;
     margin: 2rem;
-    align-items: center;
+    align-items: end;
     justify-content: center;
     border: 2px solid whitesmoke;
     display: flex;
     flex-direction: row;
 }
+.game h2{
+    color: #61abdc;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px black;
+    position: relative;
+    bottom: 15rem;
+}
 
+.roll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 2rem;
+
+}
+.roll h2{
+    color:#61abdc ;    
+    text-shadow: 2px 2px 2px black;
+}
+
+.roll h3{
+    color:#238636 ;    
+    text-shadow: 2px 2px 2px black;
+    font-size: 3rem;
+    
+}
 
 .box-player{
     width: 15%;
-    height: 90%;
+    height: 50%;
     background-color:rgba(0, 0, 0, 0.329);
     margin: 2rem;
     border-radius: 1rem;
@@ -31,19 +58,11 @@ main{
     justify-content: center;
 }
 
-.roll-viewer{
-    width: 90%;
-    height: 45%;
-    background-color:rgba(0, 0, 0, 0.329);
-    border: 2px solid whitesmoke;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
+
 .placar{
     width: 90%;
-    height: 45%;
+    height: 90%;
     background-color:rgba(0, 0, 0, 0.329);
     border: 2px solid whitesmoke;
     border-radius: 1rem;
@@ -74,5 +93,23 @@ main{
     font-size: 1.5rem;
     box-shadow: 2px 2px 2px black;
     margin: 2rem;
-    background-color: #f4d440;
+    background-color: 
+    #61abdc;
+    
+
+}
+
+.control-game button p{
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+
+button:disabled {
+    background-color: gray;
+    color: white; 
+}
+
+.button-disabled {
+    background-color: gray; 
 }
