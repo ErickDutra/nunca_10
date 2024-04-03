@@ -96,10 +96,10 @@ async function updatePlayerButtonandRoll(itemQuantity) {
 
                 if (i === currentPlayer) {
                     const player = data.items.find(item => item.id === i);
-                    const rollResult = roll(); // Lançar o dado e obter o resultado
+                    const rollResult = roll();
                     player.points += rollResult;
 
-                    // Atualizar a área de exibição do resultado do lançamento do dado
+                   
                     const rollPlayer = document.getElementById(`roll`);
                     rollPlayer.innerHTML = `
                         <h2>Player ${player.id} Rolou o dado:
@@ -120,7 +120,7 @@ async function updatePlayerButtonandRoll(itemQuantity) {
 
             buttonPlayer.appendChild(rollButton); 
 
-            // Adicionar área de exibição do resultado do lançamento do dado para cada jogador
+        
             const rollPlayerArea = document.createElement('div');
             rollPlayerArea.id = `roll-${i}`;
             buttonPlayer.appendChild(rollPlayerArea);
