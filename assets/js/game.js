@@ -41,7 +41,7 @@ async function updatePlayerWindow(itemQuantity) {
                 windowPlayer.innerHTML = `
                     <div>
                         <h2 style="color: #61b955;">Player ${player.id} Win!</h2> 
-                        <h2 style="color: #61b955;">Player ${player.id} juntou 100 points !</h2> 
+                        <h2 style="color: #61b955;">Player ${player.id} accumulated 100 points !</h2> 
                     </div>`;
                 winnerFound = true;
             }
